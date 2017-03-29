@@ -6,7 +6,7 @@ def isItValid(number):
   try:                  # Test if input is int. if not throw execption and return false.
    if (int(number)):
     return(True)
-  except ValueError:
+  except:
     print("User Input Not And Integer")
     return(False)
   
